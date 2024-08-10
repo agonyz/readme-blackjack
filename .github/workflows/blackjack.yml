@@ -1,0 +1,89 @@
+name: Blackjack Action
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  blackjack_job:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: write
+      issues: write
+
+    steps:
+      - name: Check if issue title contains Blackjack
+        id: check_blackjack
+        run: |
+          if echo "${{ github.event.issue.title }}" | grep -qi 'Blackjack:'; then
+            echo "CONTAINS_BLACKJACK=true" >> $GITHUB_OUTPUT
+          else
+            echo "CONTAINS_BLACKJACK=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check for previous running workflows
+        id: check_previous_workflows
+        if: steps.check_blackjack.outputs.CONTAINS_BLACKJACK == 'true'
+        uses: agonyz/action-workflow-cancel@v0.0.2
+        with:
+          workflow-id: 'blackjack.yml'
+
+      - name: Set envs
+        if: steps.check_blackjack.outputs.CONTAINS_BLACKJACK == 'true'
+        run: |
+          echo "GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
+          echo "PREVIOUS_JOB=${{ steps.check_previous_workflows.outputs.has-previous-running-workflow }}" >> $GITHUB_ENV
+          echo "GITHUB_ACTOR=${{ github.actor }}" >> $GITHUB_ENV
+
+      - name: Checkout code
+        if: steps.check_blackjack.outputs.CONTAINS_BLACKJACK == 'true'
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        if: steps.check_blackjack.outputs.CONTAINS_BLACKJACK == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        if: steps.check_blackjack.outputs.CONTAINS_BLACKJACK == 'true'
+        run: npm ci
+
+      - name: Build
+        if: steps.check_blackjack.outputs.CONTAINS_BLACKJACK == 'true'
+        run: npm run build
+
+      - name: Import GPG private key
+        if: steps.check_blackjack.outputs.CONTAINS_BLACKJACK == 'true'
+        run: |
+          echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --import
+
+      - name: Decrypt game state
+        run: |
+          gpg --quiet --batch --yes --decrypt --output data/game_state_blackjack.json data/game_state_blackjack.json.gpg
+
+      - name: Run
+        run: npm start
+
+      - name: Encrypt game state
+        if: steps.check_blackjack.outputs.CONTAINS_BLACKJACK == 'true'
+        run: |
+          gpg --yes --batch --trust-model always --encrypt --recipient "${{ secrets.GPG_EMAIL }}" \
+          --output data/game_state_blackjack.json.gpg data/game_state_blackjack.json
+
+      - name: Check for changes
+        id: check_changes
+        if: steps.check_blackjack.outputs.CONTAINS_BLACKJACK == 'true'
+        run: |
+          CHANGES=$(git diff --quiet && echo "false" || echo "true")
+          echo "CHANGES_TO_COMMIT=$CHANGES" >> $GITHUB_OUTPUT
+
+      - name: Commit changes
+        if: steps.check_changes.outputs.CHANGES_TO_COMMIT == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/game_state_blackjack.json.gpg README.md
+          git commit -m "${{ github.event.issue.title }} by ${{ github.actor }} - See: #${{github.event.issue.number}}"
+          git push origin master

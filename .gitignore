@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.idea/
+.secrets
+.env
+coverage/
