@@ -16,18 +16,18 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 <table>
   <tr>
     <th></th>
-    <th>Card #1</th><th>Card #2</th><th>Card #3</th>
+    <th>Card #1</th><th>Card #2</th>
     <th>Summary</th>
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/2D.svg" alt="2d"></td><td><img width="75" src="assets/cards/QS.svg" alt="Qs"></td><td><img width="75" src="assets/cards/8S.svg" alt="8s"></td>
-    <td align="center">✔️</td>
+    <td align="center"><img width="75" src="assets/cards/RED_BACK.svg" alt="Hidden Card"></td><td><img width="75" src="assets/cards/6D.svg" alt="6d"></td>
+    <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">2</td><td align="center">10</td><td align="center">8</td>
-    <td align="center">20</td>
+    <td align="center">?</td><td align="center">6</td>
+    <td align="center">6</td>
   </tr>
 </table>
   
@@ -39,18 +39,18 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 <table>
   <tr>
     <th></th>
-    <th>Card #1</th><th>Card #2</th><th>Card #3</th>
+    <th>Card #1</th><th>Card #2</th>
     <th>Summary</th>
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/6H.svg" alt="6h"></td><td><img width="75" src="assets/cards/2S.svg" alt="2s"></td><td><img width="75" src="assets/cards/AC.svg" alt="Ac"></td>
-    <td align="center">❌</td>
+    <td align="center"><img width="75" src="assets/cards/7C.svg" alt="7c"></td><td><img width="75" src="assets/cards/JC.svg" alt="Jc"></td>
+    <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">6</td><td align="center">2</td><td align="center">11</td>
-    <td align="center">19</td>
+    <td align="center">7</td><td align="center">10</td>
+    <td align="center">17</td>
   </tr>
 </table>
   
@@ -60,13 +60,6 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 | Action | Events | Actor |
 | ------ | ------ | ----- |
 | New Game || <a href='https://github.com/Agonyz-Bot'>Agonyz-Bot</a> |
-| Hit || <a href='https://github.com/Agonyz-Bot'>Agonyz-Bot</a> |
-| ↳ | Player: Draw Card ||
-| ↳ | Dealer: Draw Card ||
-| Stand || <a href='https://github.com/Agonyz-Bot'>Agonyz-Bot</a> |
-| ↳ | Dealer: Reveal Hole Card ||
-| ↳ | Dealer won: Is closer to 21 ||
-| ↳ | Game Finished: Thank you for playing! ||
 
 <!-- /blackjack-area -->
 
