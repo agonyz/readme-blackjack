@@ -16,18 +16,18 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 <table>
   <tr>
     <th></th>
-    <th>Card #1</th><th>Card #2</th><th>Card #3</th>
+    <th>Card #1</th><th>Card #2</th>
     <th>Summary</th>
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/6C.svg" alt="6c"></td><td><img width="75" src="assets/cards/6D.svg" alt="6d"></td><td><img width="75" src="assets/cards/JS.svg" alt="Js"></td>
-    <td align="center">❌</td>
+    <td align="center"><img width="75" src="assets/cards/RED_BACK.svg" alt="Hidden Card"></td><td><img width="75" src="assets/cards/4C.svg" alt="4c"></td>
+    <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">6</td><td align="center">6</td><td align="center">10</td>
-    <td align="center">22</td>
+    <td align="center">?</td><td align="center">4</td>
+    <td align="center">4</td>
   </tr>
 </table>
   
@@ -44,13 +44,13 @@ Ready to play? Click one of the buttons below to make your move and submit your 
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/7C.svg" alt="7c"></td><td><img width="75" src="assets/cards/JC.svg" alt="Jc"></td>
-    <td align="center">✔️</td>
+    <td align="center"><img width="75" src="assets/cards/TH.svg" alt="Th"></td><td><img width="75" src="assets/cards/2S.svg" alt="2s"></td>
+    <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">7</td><td align="center">10</td>
-    <td align="center">17</td>
+    <td align="center">10</td><td align="center">2</td>
+    <td align="center">12</td>
   </tr>
 </table>
   
@@ -59,12 +59,7 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 ## Game History
 | Action | Events | Actor |
 | ------ | ------ | ----- |
-| New Game || <a href='https://github.com/Agonyz-Bot'>Agonyz-Bot</a> |
-| Stand || <a href='https://github.com/Agonyz-Bot'>Agonyz-Bot</a> |
-| ↳ | Dealer: Draw Card ||
-| ↳ | Dealer: Reveal Hole Card ||
-| ↳ | Player won: Dealer busted ||
-| ↳ | Game Finished: Thank you for playing! ||
+| New Game || <a href='https://github.com/BoehmMarco'>BoehmMarco</a> |
 
 <!-- /blackjack-area -->
 
