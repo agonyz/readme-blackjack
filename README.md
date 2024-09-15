@@ -16,18 +16,18 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 <table>
   <tr>
     <th></th>
-    <th>Card #1</th><th>Card #2</th><th>Card #3</th>
+    <th>Card #1</th><th>Card #2</th>
     <th>Summary</th>
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/TS.svg" alt="Ts"></td><td><img width="75" src="assets/cards/4D.svg" alt="4d"></td><td><img width="75" src="assets/cards/4C.svg" alt="4c"></td>
-    <td align="center">✔️</td>
+    <td align="center"><img width="75" src="assets/cards/RED_BACK.svg" alt="Hidden Card"></td><td><img width="75" src="assets/cards/6D.svg" alt="6d"></td>
+    <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">10</td><td align="center">4</td><td align="center">4</td>
-    <td align="center">18</td>
+    <td align="center">?</td><td align="center">6</td>
+    <td align="center">6</td>
   </tr>
 </table>
   
@@ -39,18 +39,18 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 <table>
   <tr>
     <th></th>
-    <th>Card #1</th><th>Card #2</th><th>Card #3</th><th>Card #4</th>
+    <th>Card #1</th><th>Card #2</th>
     <th>Summary</th>
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/5D.svg" alt="5d"></td><td><img width="75" src="assets/cards/5S.svg" alt="5s"></td><td><img width="75" src="assets/cards/2D.svg" alt="2d"></td><td><img width="75" src="assets/cards/QC.svg" alt="Qc"></td>
-    <td align="center">❌</td>
+    <td align="center"><img width="75" src="assets/cards/TC.svg" alt="Tc"></td><td><img width="75" src="assets/cards/7C.svg" alt="7c"></td>
+    <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">5</td><td align="center">5</td><td align="center">2</td><td align="center">10</td>
-    <td align="center">22</td>
+    <td align="center">10</td><td align="center">7</td>
+    <td align="center">17</td>
   </tr>
 </table>
   
@@ -59,15 +59,7 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 ## Game History
 | Action | Events | Actor |
 | ------ | ------ | ----- |
-| New Game || <a href='https://github.com/BreadGhoti'>BreadGhoti</a> |
-| Hit || <a href='https://github.com/ADoebeling'>ADoebeling</a> |
-| ↳ | Player: Draw Card ||
-| ↳ | Dealer: Draw Card ||
-| Hit || <a href='https://github.com/ADoebeling'>ADoebeling</a> |
-| ↳ | Player: Draw Card ||
-| ↳ | Dealer won: Player busted ||
-| ↳ | Dealer: Reveal Hole Card ||
-| ↳ | Game Finished: Thank you for playing! ||
+| New Game || <a href='https://github.com/ADoebeling'>ADoebeling</a> |
 
 <!-- /blackjack-area -->
 
