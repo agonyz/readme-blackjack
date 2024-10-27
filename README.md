@@ -16,18 +16,18 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 <table>
   <tr>
     <th></th>
-    <th>Card #1</th><th>Card #2</th>
+    <th>Card #1</th><th>Card #2</th><th>Card #3</th>
     <th>Summary</th>
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/RED_BACK.svg" alt="Hidden Card"></td><td><img width="75" src="assets/cards/6D.svg" alt="6d"></td>
-    <td align="center"></td>
+    <td align="center"><img width="75" src="assets/cards/5S.svg" alt="5s"></td><td><img width="75" src="assets/cards/6D.svg" alt="6d"></td><td><img width="75" src="assets/cards/QS.svg" alt="Qs"></td>
+    <td align="center">✔️</td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">?</td><td align="center">6</td>
-    <td align="center">6</td>
+    <td align="center">5</td><td align="center">6</td><td align="center">10</td>
+    <td align="center">21</td>
   </tr>
 </table>
   
@@ -45,7 +45,7 @@ Ready to play? Click one of the buttons below to make your move and submit your 
   <tr>
     <td><strong>Cards</strong></td>
     <td align="center"><img width="75" src="assets/cards/TC.svg" alt="Tc"></td><td><img width="75" src="assets/cards/7C.svg" alt="7c"></td>
-    <td align="center"></td>
+    <td align="center">❌</td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
@@ -60,6 +60,11 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 | Action | Events | Actor |
 | ------ | ------ | ----- |
 | New Game || <a href='https://github.com/ADoebeling'>ADoebeling</a> |
+| Stand || <a href='https://github.com/agonyz'>agonyz</a> |
+| ↳ | Dealer: Draw Card ||
+| ↳ | Dealer: Reveal Hole Card ||
+| ↳ | Dealer won: Is closer to 21 ||
+| ↳ | Game Finished: Thank you for playing! ||
 
 <!-- /blackjack-area -->
 
