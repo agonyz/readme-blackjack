@@ -16,18 +16,18 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 <table>
   <tr>
     <th></th>
-    <th>Card #1</th><th>Card #2</th><th>Card #3</th>
+    <th>Card #1</th><th>Card #2</th>
     <th>Summary</th>
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/5S.svg" alt="5s"></td><td><img width="75" src="assets/cards/6D.svg" alt="6d"></td><td><img width="75" src="assets/cards/QS.svg" alt="Qs"></td>
-    <td align="center">✔️</td>
+    <td align="center"><img width="75" src="assets/cards/RED_BACK.svg" alt="Hidden Card"></td><td><img width="75" src="assets/cards/7S.svg" alt="7s"></td>
+    <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">5</td><td align="center">6</td><td align="center">10</td>
-    <td align="center">21</td>
+    <td align="center">?</td><td align="center">7</td>
+    <td align="center">7</td>
   </tr>
 </table>
   
@@ -44,13 +44,13 @@ Ready to play? Click one of the buttons below to make your move and submit your 
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/TC.svg" alt="Tc"></td><td><img width="75" src="assets/cards/7C.svg" alt="7c"></td>
-    <td align="center">❌</td>
+    <td align="center"><img width="75" src="assets/cards/AC.svg" alt="Ac"></td><td><img width="75" src="assets/cards/3H.svg" alt="3h"></td>
+    <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">10</td><td align="center">7</td>
-    <td align="center">17</td>
+    <td align="center">11</td><td align="center">3</td>
+    <td align="center">14</td>
   </tr>
 </table>
   
@@ -59,12 +59,7 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 ## Game History
 | Action | Events | Actor |
 | ------ | ------ | ----- |
-| New Game || <a href='https://github.com/ADoebeling'>ADoebeling</a> |
-| Stand || <a href='https://github.com/agonyz'>agonyz</a> |
-| ↳ | Dealer: Draw Card ||
-| ↳ | Dealer: Reveal Hole Card ||
-| ↳ | Dealer won: Is closer to 21 ||
-| ↳ | Game Finished: Thank you for playing! ||
+| New Game || <a href='https://github.com/agonyz'>agonyz</a> |
 
 <!-- /blackjack-area -->
 
