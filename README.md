@@ -39,18 +39,18 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 <table>
   <tr>
     <th></th>
-    <th>Card #1</th><th>Card #2</th>
+    <th>Card #1</th><th>Card #2</th><th>Card #3</th>
     <th>Summary</th>
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/AC.svg" alt="Ac"></td><td><img width="75" src="assets/cards/3H.svg" alt="3h"></td>
+    <td align="center"><img width="75" src="assets/cards/AC.svg" alt="Ac"></td><td><img width="75" src="assets/cards/3H.svg" alt="3h"></td><td><img width="75" src="assets/cards/2D.svg" alt="2d"></td>
     <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">11</td><td align="center">3</td>
-    <td align="center">14</td>
+    <td align="center">11</td><td align="center">3</td><td align="center">2</td>
+    <td align="center">16</td>
   </tr>
 </table>
   
@@ -60,6 +60,8 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 | Action | Events | Actor |
 | ------ | ------ | ----- |
 | New Game || <a href='https://github.com/agonyz'>agonyz</a> |
+| Hit || <a href='https://github.com/StackOverflowIsBetterThanAnyAI'>StackOverflowIsBetterThanAnyAI</a> |
+| ↳ | Player: Draw Card ||
 
 <!-- /blackjack-area -->
 
