@@ -21,13 +21,13 @@ Ready to play? Click one of the buttons below to make your move and submit your 
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/RED_BACK.svg" alt="Hidden Card"></td><td><img width="75" src="assets/cards/KH.svg" alt="Kh"></td>
-    <td align="center"></td>
+    <td align="center"><img width="75" src="assets/cards/QC.svg" alt="Qc"></td><td><img width="75" src="assets/cards/KH.svg" alt="Kh"></td>
+    <td align="center">✔️</td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">?</td><td align="center">10</td>
-    <td align="center">10</td>
+    <td align="center">10</td><td align="center">10</td>
+    <td align="center">20</td>
   </tr>
 </table>
   
@@ -39,18 +39,18 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 <table>
   <tr>
     <th></th>
-    <th>Card #1</th><th>Card #2</th>
+    <th>Card #1</th><th>Card #2</th><th>Card #3</th>
     <th>Summary</th>
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/3H.svg" alt="3h"></td><td><img width="75" src="assets/cards/TH.svg" alt="Th"></td>
-    <td align="center"></td>
+    <td align="center"><img width="75" src="assets/cards/3H.svg" alt="3h"></td><td><img width="75" src="assets/cards/TH.svg" alt="Th"></td><td><img width="75" src="assets/cards/9H.svg" alt="9h"></td>
+    <td align="center">❌</td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">3</td><td align="center">10</td>
-    <td align="center">13</td>
+    <td align="center">3</td><td align="center">10</td><td align="center">9</td>
+    <td align="center">22</td>
   </tr>
 </table>
   
@@ -60,6 +60,11 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 | Action | Events | Actor |
 | ------ | ------ | ----- |
 | New Game || <a href='https://github.com/StackOverflowIsBetterThanAnyAI'>StackOverflowIsBetterThanAnyAI</a> |
+| Hit || <a href='https://github.com/StackOverflowIsBetterThanAnyAI'>StackOverflowIsBetterThanAnyAI</a> |
+| ↳ | Player: Draw Card ||
+| ↳ | Dealer won: Player busted ||
+| ↳ | Dealer: Reveal Hole Card ||
+| ↳ | Game Finished: Thank you for playing! ||
 
 <!-- /blackjack-area -->
 
