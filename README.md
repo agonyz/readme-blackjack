@@ -16,18 +16,18 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 <table>
   <tr>
     <th></th>
-    <th>Card #1</th><th>Card #2</th>
+    <th>Card #1</th><th>Card #2</th><th>Card #3</th>
     <th>Summary</th>
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/RED_BACK.svg" alt="Hidden Card"></td><td><img width="75" src="assets/cards/AH.svg" alt="Ah"></td>
+    <td align="center"><img width="75" src="assets/cards/RED_BACK.svg" alt="Hidden Card"></td><td><img width="75" src="assets/cards/AH.svg" alt="Ah"></td><td><img width="75" src="assets/cards/9D.svg" alt="9d"></td>
     <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">?</td><td align="center">11</td>
-    <td align="center">11</td>
+    <td align="center">?</td><td align="center">11</td><td align="center">9</td>
+    <td align="center">20</td>
   </tr>
 </table>
   
@@ -39,18 +39,18 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 <table>
   <tr>
     <th></th>
-    <th>Card #1</th><th>Card #2</th>
+    <th>Card #1</th><th>Card #2</th><th>Card #3</th>
     <th>Summary</th>
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/QC.svg" alt="Qc"></td><td><img width="75" src="assets/cards/2D.svg" alt="2d"></td>
+    <td align="center"><img width="75" src="assets/cards/QC.svg" alt="Qc"></td><td><img width="75" src="assets/cards/2D.svg" alt="2d"></td><td><img width="75" src="assets/cards/7D.svg" alt="7d"></td>
     <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">10</td><td align="center">2</td>
-    <td align="center">12</td>
+    <td align="center">10</td><td align="center">2</td><td align="center">7</td>
+    <td align="center">19</td>
   </tr>
 </table>
   
@@ -60,6 +60,9 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 | Action | Events | Actor |
 | ------ | ------ | ----- |
 | New Game || <a href='https://github.com/StackOverflowIsBetterThanAnyAI'>StackOverflowIsBetterThanAnyAI</a> |
+| Hit || <a href='https://github.com/lustreaxy'>lustreaxy</a> |
+| ↳ | Player: Draw Card ||
+| ↳ | Dealer: Draw Card ||
 
 <!-- /blackjack-area -->
 
