@@ -21,13 +21,13 @@ Ready to play? Click one of the buttons below to make your move and submit your 
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/RED_BACK.svg" alt="Hidden Card"></td><td><img width="75" src="assets/cards/AH.svg" alt="Ah"></td><td><img width="75" src="assets/cards/9D.svg" alt="9d"></td>
-    <td align="center"></td>
+    <td align="center"><img width="75" src="assets/cards/AD.svg" alt="Ad"></td><td><img width="75" src="assets/cards/AH.svg" alt="Ah"></td><td><img width="75" src="assets/cards/9D.svg" alt="9d"></td>
+    <td align="center">✔️</td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">?</td><td align="center">11</td><td align="center">9</td>
-    <td align="center">20</td>
+    <td align="center">1</td><td align="center">1</td><td align="center">9</td>
+    <td align="center">21</td>
   </tr>
 </table>
   
@@ -45,7 +45,7 @@ Ready to play? Click one of the buttons below to make your move and submit your 
   <tr>
     <td><strong>Cards</strong></td>
     <td align="center"><img width="75" src="assets/cards/QC.svg" alt="Qc"></td><td><img width="75" src="assets/cards/2D.svg" alt="2d"></td><td><img width="75" src="assets/cards/7D.svg" alt="7d"></td>
-    <td align="center"></td>
+    <td align="center">❌</td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
@@ -63,6 +63,10 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 | Hit || <a href='https://github.com/lustreaxy'>lustreaxy</a> |
 | ↳ | Player: Draw Card ||
 | ↳ | Dealer: Draw Card ||
+| Stand || <a href='https://github.com/agonyz'>agonyz</a> |
+| ↳ | Dealer: Reveal Hole Card ||
+| ↳ | Dealer won: Is closer to 21 ||
+| ↳ | Game Finished: Thank you for playing! ||
 
 <!-- /blackjack-area -->
 
