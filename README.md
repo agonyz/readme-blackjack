@@ -39,18 +39,18 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 <table>
   <tr>
     <th></th>
-    <th>Card #1</th><th>Card #2</th>
+    <th>Card #1</th><th>Card #2</th><th>Card #3</th>
     <th>Summary</th>
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/QC.svg" alt="Qc"></td><td><img width="75" src="assets/cards/AD.svg" alt="Ad"></td>
+    <td align="center"><img width="75" src="assets/cards/QC.svg" alt="Qc"></td><td><img width="75" src="assets/cards/AD.svg" alt="Ad"></td><td><img width="75" src="assets/cards/5C.svg" alt="5c"></td>
     <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">10</td><td align="center">11</td>
-    <td align="center">21</td>
+    <td align="center">10</td><td align="center">1</td><td align="center">5</td>
+    <td align="center">16</td>
   </tr>
 </table>
   
@@ -60,6 +60,8 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 | Action | Events | Actor |
 | ------ | ------ | ----- |
 | New Game || <a href='https://github.com/lulunac27a'>lulunac27a</a> |
+| Hit || <a href='https://github.com/lulunac27a'>lulunac27a</a> |
+| ↳ | Player: Draw Card ||
 
 <!-- /blackjack-area -->
 
