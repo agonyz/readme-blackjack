@@ -21,13 +21,13 @@ Ready to play? Click one of the buttons below to make your move and submit your 
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/9C.svg" alt="9c"></td><td><img width="75" src="assets/cards/AC.svg" alt="Ac"></td>
-    <td align="center">✔️</td>
+    <td align="center"><img width="75" src="assets/cards/RED_BACK.svg" alt="Hidden Card"></td><td><img width="75" src="assets/cards/9S.svg" alt="9s"></td>
+    <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">9</td><td align="center">11</td>
-    <td align="center">20</td>
+    <td align="center">?</td><td align="center">9</td>
+    <td align="center">9</td>
   </tr>
 </table>
   
@@ -39,18 +39,18 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 <table>
   <tr>
     <th></th>
-    <th>Card #1</th><th>Card #2</th><th>Card #3</th><th>Card #4</th>
+    <th>Card #1</th><th>Card #2</th>
     <th>Summary</th>
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/QC.svg" alt="Qc"></td><td><img width="75" src="assets/cards/AD.svg" alt="Ad"></td><td><img width="75" src="assets/cards/5C.svg" alt="5c"></td><td><img width="75" src="assets/cards/KS.svg" alt="Ks"></td>
-    <td align="center">❌</td>
+    <td align="center"><img width="75" src="assets/cards/QS.svg" alt="Qs"></td><td><img width="75" src="assets/cards/8S.svg" alt="8s"></td>
+    <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">10</td><td align="center">1</td><td align="center">5</td><td align="center">10</td>
-    <td align="center">26</td>
+    <td align="center">10</td><td align="center">8</td>
+    <td align="center">18</td>
   </tr>
 </table>
   
@@ -59,14 +59,7 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 ## Game History
 | Action | Events | Actor |
 | ------ | ------ | ----- |
-| New Game || <a href='https://github.com/lulunac27a'>lulunac27a</a> |
-| Hit || <a href='https://github.com/lulunac27a'>lulunac27a</a> |
-| ↳ | Player: Draw Card ||
-| Hit || <a href='https://github.com/antoniooodev'>antoniooodev</a> |
-| ↳ | Player: Draw Card ||
-| ↳ | Dealer won: Player busted ||
-| ↳ | Dealer: Reveal Hole Card ||
-| ↳ | Game Finished: Thank you for playing! ||
+| New Game || <a href='https://github.com/antoniooodev'>antoniooodev</a> |
 
 <!-- /blackjack-area -->
 
