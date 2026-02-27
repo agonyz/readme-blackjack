@@ -21,13 +21,13 @@ Ready to play? Click one of the buttons below to make your move and submit your 
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/RED_BACK.svg" alt="Hidden Card"></td><td><img width="75" src="assets/cards/9S.svg" alt="9s"></td>
-    <td align="center"></td>
+    <td align="center"><img width="75" src="assets/cards/AH.svg" alt="Ah"></td><td><img width="75" src="assets/cards/9S.svg" alt="9s"></td>
+    <td align="center">✔️</td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">?</td><td align="center">9</td>
-    <td align="center">9</td>
+    <td align="center">11</td><td align="center">9</td>
+    <td align="center">20</td>
   </tr>
 </table>
   
@@ -45,7 +45,7 @@ Ready to play? Click one of the buttons below to make your move and submit your 
   <tr>
     <td><strong>Cards</strong></td>
     <td align="center"><img width="75" src="assets/cards/QS.svg" alt="Qs"></td><td><img width="75" src="assets/cards/8S.svg" alt="8s"></td>
-    <td align="center"></td>
+    <td align="center">❌</td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
@@ -60,6 +60,10 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 | Action | Events | Actor |
 | ------ | ------ | ----- |
 | New Game || <a href='https://github.com/antoniooodev'>antoniooodev</a> |
+| Stand || <a href='https://github.com/ondra10x10'>ondra10x10</a> |
+| ↳ | Dealer: Reveal Hole Card ||
+| ↳ | Dealer won: Is closer to 21 ||
+| ↳ | Game Finished: Thank you for playing! ||
 
 <!-- /blackjack-area -->
 
