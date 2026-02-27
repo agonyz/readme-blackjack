@@ -21,13 +21,13 @@ Ready to play? Click one of the buttons below to make your move and submit your 
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/AH.svg" alt="Ah"></td><td><img width="75" src="assets/cards/9S.svg" alt="9s"></td>
-    <td align="center">✔️</td>
+    <td align="center"><img width="75" src="assets/cards/RED_BACK.svg" alt="Hidden Card"></td><td><img width="75" src="assets/cards/8H.svg" alt="8h"></td>
+    <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">11</td><td align="center">9</td>
-    <td align="center">20</td>
+    <td align="center">?</td><td align="center">8</td>
+    <td align="center">8</td>
   </tr>
 </table>
   
@@ -44,12 +44,12 @@ Ready to play? Click one of the buttons below to make your move and submit your 
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/QS.svg" alt="Qs"></td><td><img width="75" src="assets/cards/8S.svg" alt="8s"></td>
-    <td align="center">❌</td>
+    <td align="center"><img width="75" src="assets/cards/8D.svg" alt="8d"></td><td><img width="75" src="assets/cards/QH.svg" alt="Qh"></td>
+    <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">10</td><td align="center">8</td>
+    <td align="center">8</td><td align="center">10</td>
     <td align="center">18</td>
   </tr>
 </table>
@@ -59,11 +59,7 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 ## Game History
 | Action | Events | Actor |
 | ------ | ------ | ----- |
-| New Game || <a href='https://github.com/antoniooodev'>antoniooodev</a> |
-| Stand || <a href='https://github.com/ondra10x10'>ondra10x10</a> |
-| ↳ | Dealer: Reveal Hole Card ||
-| ↳ | Dealer won: Is closer to 21 ||
-| ↳ | Game Finished: Thank you for playing! ||
+| New Game || <a href='https://github.com/agonyz'>agonyz</a> |
 
 <!-- /blackjack-area -->
 
