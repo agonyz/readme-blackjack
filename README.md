@@ -21,13 +21,13 @@ Ready to play? Click one of the buttons below to make your move and submit your 
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/RED_BACK.svg" alt="Hidden Card"></td><td><img width="75" src="assets/cards/KH.svg" alt="Kh"></td><td><img width="75" src="assets/cards/6C.svg" alt="6c"></td>
-    <td align="center"></td>
+    <td align="center"><img width="75" src="assets/cards/4S.svg" alt="4s"></td><td><img width="75" src="assets/cards/KH.svg" alt="Kh"></td><td><img width="75" src="assets/cards/6C.svg" alt="6c"></td>
+    <td align="center">✔️</td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">?</td><td align="center">10</td><td align="center">6</td>
-    <td align="center">16</td>
+    <td align="center">4</td><td align="center">10</td><td align="center">6</td>
+    <td align="center">20</td>
   </tr>
 </table>
   
@@ -45,7 +45,7 @@ Ready to play? Click one of the buttons below to make your move and submit your 
   <tr>
     <td><strong>Cards</strong></td>
     <td align="center"><img width="75" src="assets/cards/2H.svg" alt="2h"></td><td><img width="75" src="assets/cards/AH.svg" alt="Ah"></td><td><img width="75" src="assets/cards/3C.svg" alt="3c"></td>
-    <td align="center"></td>
+    <td align="center">❌</td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
@@ -63,6 +63,10 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 | Hit || <a href='https://github.com/MVConsorte'>MVConsorte</a> |
 | ↳ | Player: Draw Card ||
 | ↳ | Dealer: Draw Card ||
+| Stand || <a href='https://github.com/MVConsorte'>MVConsorte</a> |
+| ↳ | Dealer: Reveal Hole Card ||
+| ↳ | Dealer won: Is closer to 21 ||
+| ↳ | Game Finished: Thank you for playing! ||
 
 <!-- /blackjack-area -->
 
