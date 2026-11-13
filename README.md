@@ -21,13 +21,13 @@ Ready to play? Click one of the buttons below to make your move and submit your 
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/TS.svg" alt="Ts"></td><td><img width="75" src="assets/cards/8C.svg" alt="8c"></td>
-    <td align="center">✔️</td>
+    <td align="center"><img width="75" src="assets/cards/RED_BACK.svg" alt="Hidden Card"></td><td><img width="75" src="assets/cards/KH.svg" alt="Kh"></td>
+    <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">10</td><td align="center">8</td>
-    <td align="center">18</td>
+    <td align="center">?</td><td align="center">10</td>
+    <td align="center">10</td>
   </tr>
 </table>
   
@@ -39,18 +39,18 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 <table>
   <tr>
     <th></th>
-    <th>Card #1</th><th>Card #2</th><th>Card #3</th>
+    <th>Card #1</th><th>Card #2</th>
     <th>Summary</th>
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/2C.svg" alt="2c"></td><td><img width="75" src="assets/cards/TC.svg" alt="Tc"></td><td><img width="75" src="assets/cards/QD.svg" alt="Qd"></td>
-    <td align="center">❌</td>
+    <td align="center"><img width="75" src="assets/cards/2H.svg" alt="2h"></td><td><img width="75" src="assets/cards/AH.svg" alt="Ah"></td>
+    <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">2</td><td align="center">10</td><td align="center">10</td>
-    <td align="center">22</td>
+    <td align="center">2</td><td align="center">11</td>
+    <td align="center">13</td>
   </tr>
 </table>
   
@@ -60,11 +60,6 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 | Action | Events | Actor |
 | ------ | ------ | ----- |
 | New Game || <a href='https://github.com/MVConsorte'>MVConsorte</a> |
-| Hit || <a href='https://github.com/MVConsorte'>MVConsorte</a> |
-| ↳ | Player: Draw Card ||
-| ↳ | Dealer won: Player busted ||
-| ↳ | Dealer: Reveal Hole Card ||
-| ↳ | Game Finished: Thank you for playing! ||
 
 <!-- /blackjack-area -->
 
