@@ -16,18 +16,18 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 <table>
   <tr>
     <th></th>
-    <th>Card #1</th><th>Card #2</th>
+    <th>Card #1</th><th>Card #2</th><th>Card #3</th>
     <th>Summary</th>
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/RED_BACK.svg" alt="Hidden Card"></td><td><img width="75" src="assets/cards/KH.svg" alt="Kh"></td>
+    <td align="center"><img width="75" src="assets/cards/RED_BACK.svg" alt="Hidden Card"></td><td><img width="75" src="assets/cards/KH.svg" alt="Kh"></td><td><img width="75" src="assets/cards/6C.svg" alt="6c"></td>
     <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">?</td><td align="center">10</td>
-    <td align="center">10</td>
+    <td align="center">?</td><td align="center">10</td><td align="center">6</td>
+    <td align="center">16</td>
   </tr>
 </table>
   
@@ -39,18 +39,18 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 <table>
   <tr>
     <th></th>
-    <th>Card #1</th><th>Card #2</th>
+    <th>Card #1</th><th>Card #2</th><th>Card #3</th>
     <th>Summary</th>
   </tr>
   <tr>
     <td><strong>Cards</strong></td>
-    <td align="center"><img width="75" src="assets/cards/2H.svg" alt="2h"></td><td><img width="75" src="assets/cards/AH.svg" alt="Ah"></td>
+    <td align="center"><img width="75" src="assets/cards/2H.svg" alt="2h"></td><td><img width="75" src="assets/cards/AH.svg" alt="Ah"></td><td><img width="75" src="assets/cards/3C.svg" alt="3c"></td>
     <td align="center"></td>
   </tr>
   <tr>
     <td><strong>Values</strong></td>
-    <td align="center">2</td><td align="center">11</td>
-    <td align="center">13</td>
+    <td align="center">2</td><td align="center">11</td><td align="center">3</td>
+    <td align="center">16</td>
   </tr>
 </table>
   
@@ -60,6 +60,9 @@ Ready to play? Click one of the buttons below to make your move and submit your 
 | Action | Events | Actor |
 | ------ | ------ | ----- |
 | New Game || <a href='https://github.com/MVConsorte'>MVConsorte</a> |
+| Hit || <a href='https://github.com/MVConsorte'>MVConsorte</a> |
+| ↳ | Player: Draw Card ||
+| ↳ | Dealer: Draw Card ||
 
 <!-- /blackjack-area -->
 
